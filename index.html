@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="">
+    <title></title>
+    <style>
+      * {
+        box-sizing: border-box;
+        /* background-image: url("assets/tm-astro-bg.jpg");
+          background-image: cover;
+          /* background-image: repeat; */
+      }
+
+      .el1,
+      .el2,
+      .el3,
+      .el4 {
+        background-image: url("assets/tm-astro-bg.jpg");
+        background-image: auto;
+        border: 1px solid black;
+        height: 100vh;
+        width:100%;
+        color: white;
+        /* display: flex; */
+      }
+
+      nav {
+        width: 100%;
+        /* position:fixed; */
+        top: 0%;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+      }
+      nav ul li {
+        display: inline-block;
+        list-style: none;
+        padding: 25px;
+      }
+      .el11 {
+        margin-top: 5%;
+        padding: 10px;
+        display: flex;
+      }
+      .el21{
+        margin-top: 5%;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+      }
+      .el2a{
+        margin-left: 20px;
+        justify-content: space-evenly;
+      }
+      .el31{
+        margin-left:40%;
+        padding: 10px;
+        display: flex;
+      }
+      .el3a{
+        margin-top: 10%;
+        padding: 10px;
+        opacity: 0.7;
+      }
+      .el41{
+        margin-top: 2%;
+        padding: 5px;
+        display: flex;
+      }
+      .el4a{
+        margin-left:20%;
+      }
+      .el4b{
+        margin-left: 30%;
+        margin-right:10%;
+        display: flex;
+        flex-direction: column;
+      }
+      .google-map {
+     padding-bottom: 50%;
+     position: relative;
+}
+
+.google-map iframe {
+     height: 100%;
+     width: 100%;
+     left: 0;
+     top: 0;
+     position: absolute;
+} 
+    </style>
+  </head>
+  <body>
+      <div class="el1">
+        <nav>
+          <h1>Astro Motion</h1>
+          <ul>
+            <li style="color: green;">Home</li>
+            <li>Gallery</li>
+            <li>About</li>
+            <li>Contact</li>
+            <br /><br />
+          </ul>
+        </nav>
+        <div class="el11">
+          <div class="el1a" style="opacity: 0.7">
+            <h2>Welcome to Astro Motion</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis
+              enim impedit amet, fugit aut exercitationem quaerat iure, beatae
+              dolorum sint, voluptatem error accusamus eius. Dolorum magni
+              facere doloremque delectus repellendus.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Exercitationem odio voluptas minima assumenda animi est sequi
+              mollitia sed accusamus aliquid excepturi sit quo quod repellendus,
+              eum consequatur reprehenderit hic quaerat
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Exercitationem odio voluptas minima assumenda animi est sequi
+              mollitia sed accusamus aliquid excepturi sit quo quod repellendus,
+              eum consequatur reprehenderit hic quaerat
+            </p>
+          </div>
+          <div class="el1b">
+            <img src="./assets/home-img-1.jpg" alt="home" />
+            <img src="./assets/home-img-2.jpg" alt="home" />
+          </div>
+          <!-- <button style="color: black;">View Gallery</button> -->
+        </div>
+
+        <button
+          style="
+            background-color: white;
+            color: black;
+            padding: 10px;
+            margin-left: 40%;
+          "
+        >
+          View Gallery
+        </button>
+      </div>
+
+      <div class="el2">
+        <nav>
+            <h1>Astro Motion</h1>
+            <ul>
+              <li>Home</li>
+              <li style="color: green;">Gallery</li>
+              <li>About</li>
+              <li>Contact</li>
+              <br /><br />
+            </ul>
+          </nav>
+          <div class="el21">
+            <div class="el2a">
+                <img src="./assets/gallery-img-01.jpg" alt="image1">
+                <img src="./assets/gallery-img-02.jpg" alt="image2">
+                <img src="./assets/gallery-img-07.jpg" alt="image3">
+                <img src="./assets/gallery-img-04.jpg" alt="image4">
+                <img src="./assets/gallery-img-05.jpg" alt="image5">
+            </div>
+        </div>
+      </div>
+
+      <div class="el3">
+        <nav>
+            <h1>Astro Motion</h1>
+            <ul>
+              <li>Home</li>
+              <li>Gallery</li>
+              <li style="color:green;">About</li>
+              <li>Contact</li>
+              <br /><br />
+            </ul>
+          </nav>
+          <div class="el31">
+            <div class="el3a">
+              <h2>About our company</h2>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis
+                enim impedit amet, fugit aut exercitationem quaerat iure, beatae
+                dolorum sint, voluptatem error accusamus eius. Dolorum magni
+                facere doloremque delectus repellendus.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Exercitationem odio voluptas minima assumenda animi est sequi
+                mollitia sed accusamus aliquid excepturi sit quo quod repellendus,
+                eum consequatur reprehenderit.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Exercitationem odio voluptas minima assumenda animi est sequi
+                mollitia sed accusamus aliquid excepturi sit quo quod repellendus,
+                eum consequatur reprehenderit.
+              </p>
+            </div>
+      </div>
+      </div>
+    
+
+      <div class="el4">
+        <nav>
+            <h1>Astro Motion</h1>
+            <ul>
+              <li>Home</li>
+              <li>Gallery</li>
+              <li>About</li>
+              <li style="color: green;">Contact</li>
+              <br /><br />
+            </ul>
+          </nav>
+          <div class="el41">
+          <div class="el4a">
+            <p>Name</p>
+            <hr>
+            <p>Email</p>
+            <hr>
+            <p>Message</p>
+            <button>Send</button>
+          </div>
+          <div class="el4b">
+            <h2>Contact Us</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, illo quod. Culpa dicta explicabo, exercitationem mollitia est voluptas ducimus libero dignissimos perspiciatis quaerat earum hic quidem pariatur illum repudiandae a.</p>
+            <p>Email: info@company.com</p>
+            <p>Tel: 010-020-0340
+            </p>
+           <div class="google-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.30190981885!2d78.39954787493726!3d17.49309568341227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb91625d9cd1ad%3A0x4455387ad24a675d!2s10000coders!5e0!3m2!1sen!2sin!4v1717372582187!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+           </div>
+           </div>
+           </div>
+        </body>
+  
+  
+</html>
